@@ -1,0 +1,100 @@
+/*Motheo Morena u24666981*/
+
+body{
+	background-color: BlanchedAlmond;	
+	color: #000000B3;
+}
+
+main{
+    background-color: BlanchedAlmond;
+}
+
+span{
+	color: #FF4500;
+}
+
+div.tracks{
+	background-color: #FFE4C4;
+}
+
+.song-per-section,
+.main-bg{
+	background-color:#fdc57b;
+}
+
+.club>main {
+    background-color: #FFE4C4;
+}
+
+.button-submit {
+    background-color: #bd7522b0;
+    color: white;
+}
+
+.label-input-box input:hover {
+    background-color:beige;
+}
+
+
+.button-reset {
+    background-color: #bd7522b0;
+    color: white;
+}
+
+.navbar{
+	background-color: BlanchedAlmond;
+}
+
+.navbar ul li a {
+    color: hsl(25, 75%, 47%);
+}
+
+.navbar ul li a:hover,
+.navbar ul li .current {
+	background-color: #bd7522b0;
+	color: white;
+}
+
+.navbar ul li ul {
+	background-color: #333;
+}
+
+.navbar ul li ul li a:hover {
+	background-color: #bd7522b0;
+}
+
+.backToTop{
+	font-size: 2rem;
+	color: hsl(25, 75%, 47%, 45%);
+}
+
+.backToTop:hover{
+	background-color: #b55400;
+	color: white;
+}
+
+a{
+    color: hsl(25, 75%, 47%);
+}
+
+a:active, a.current{
+	color: white;
+}
+
+select{
+	background-color: Moccasin;
+}
+
+select:hover{
+	background-color:  hsl(25, 75%, 47%);
+	color: white;
+}
+
+th{
+	background-color: Moccasin;
+	color: black;
+}
+
+tr:hover {
+	background-color: Moccasin;
+}

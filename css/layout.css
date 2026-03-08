@@ -1,0 +1,434 @@
+/* Motheo Morena u24666981 */
+
+p>audio{
+    text-align: center;
+}
+
+.audio{
+    display: block;
+    margin: 0 auto;
+}
+
+.backToTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.videos-aside{
+    position: sticky;
+    top: 0;
+}
+
+#header{
+    position: sticky;
+    top: 0;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a {
+    display: block;
+    padding: 1% 5%;
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.navbar li:hover ul {
+    display: block;
+}
+
+.about-cont{
+    display: grid;
+}
+
+main.web-home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 5%;
+}
+
+main.align-aside{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 4rem;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+nav{
+    position: sticky;
+    font-size: 0.8rem;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+}
+
+.body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    max-height: 100%;
+    margin: 0;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    max-width: 90%;
+}
+
+article.about-cont{
+    grid-column: 1 / span 2;
+}
+
+/*form layout*/
+#personal-info{
+    display: grid;
+    grid-template-columns: 8% repeat(4, 1fr) 8%;
+    grid-template-rows: repeat(2, 25%);
+    padding: 2%;
+    gap: 4rem;
+}
+
+#contacts{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0.5%;
+}
+
+#method-of-contact{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 1 / -1;
+    gap: 10%;
+}
+
+#password{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+    padding: 2%;
+}
+
+#buttons{
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 2.3fr 1fr; 
+}
+
+/* Music page layout*/
+.awards-reviews{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1rem;
+}
+
+.beyonce-box{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1rem;
+    justify-content: center;
+    align-content: space-between;
+    width:80%;
+}
+
+.tracks{
+    max-width: 50%;
+    margin: auto;
+} 
+
+/* CSS for Gallery Layout */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+    max-width: 100%; /* Adjust max-width as needed */
+    margin: 0 auto;
+}
+
+.gallery-grid .tooltip {
+    position: relative;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-grid figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.gallery-grid .tooltiptext {
+    visibility: hidden;
+    width: 20rem;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-grid .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#gallery{
+    padding: 2.5%;
+}
+
+/* Zoom effect on hover */
+figure>div img:hover,
+figure>div>img:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+
+/* Media Queries */
+@media screen and (max-width: 764px) and (min-width: 375px){
+    body {
+        font-size: 14px; 
+    }
+
+    main {
+        max-width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    span {
+        font-size: 0.9rem; 
+    }
+
+    div.tracks {
+        border: 2px solid #D2691E;
+        border-radius: 7.5px;
+        padding: 5px; 
+    }
+
+    .song-per-section,
+    .main-bg {
+        border-radius: 20px;
+        padding: 20px; 
+    }
+
+    .club>main {
+        padding: 7.5px; 
+    }
+
+    .button-submit,
+    .button-reset {
+        font-size: 1rem; 
+        padding: 5px; 
+    }
+
+    .navbar ul li a {
+        padding: 5px; 
+    }
+
+    .backToTop {
+        font-size: 1.5rem; 
+    }
+
+    h1#header {
+        font-size: 2rem; 
+    }
+    h1 {
+        font-size: 2rem; 
+    }
+
+    .club {
+        display: grid;
+        max-height: 100%;
+        max-width: 100%;
+        font-size: 1.2em; 
+        font-weight: bold;
+    }
+
+    .club>nav {
+        font-size: 1.2rem; 
+    }
+
+    .club>main>form {
+        max-width: 100%;
+    }
+
+    .label-input-box {
+        margin-bottom: 0.7em; 
+        max-width: 100%;
+    }
+
+    .label-input-box input {
+        max-width: 100%;
+        padding: 1.2%; 
+        margin-top: 0.2rem; 
+        border-radius: 0.3rem;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 1.2rem; 
+    }
+
+    .label-input-box label {
+        max-width: 100%;
+    }
+
+    .button-submit {
+        padding: 4%; 
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .home-image {
+        border-radius: 1rem; 
+        width: 50%; 
+        height: auto;
+        padding: 0.3rem; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    video {
+        padding: 1rem; 
+    }
+
+    .tooltip .tooltiptext {
+        width: 7rem; 
+        padding: 4%; 
+        margin-left: -7rem; 
+    }
+
+    .backToTop {
+        margin: 0 auto;
+    }
+
+    #header {
+        position: static; 
+        top: auto;
+    }
+
+    .navbar li {
+        display: block; 
+        width: 100%; 
+    }
+
+    .navbar li a {
+        display: block;
+        padding: 5px; 
+    }
+
+    .navbar ul ul {
+        position: static; 
+        top: auto;
+        display: block;
+        width: 100%; 
+    }
+
+    .navbar ul li ul li a {
+        padding: 5px; 
+    }
+
+    main.web-home {
+        margin: 5%; 
+    }
+
+    main.align-aside {
+        display: block; 
+        margin: 5%; 
+    }
+
+    nav {
+        position: static; 
+        font-size: 0.6rem; 
+        font-weight: bold;
+        top: auto;
+        left: auto;
+    }
+
+    .body {
+        display: block; 
+        margin: 0;
+    }
+
+    .main {
+        display: block; 
+        max-width: 100%;
+        margin: auto;
+    }
+
+    article.about-cont {
+        grid-column: 1 / span 1;
+    }
+
+    #personal-info {
+        display: block; 
+        padding: 2%;
+        gap: 2rem; 
+    }
+
+    #contacts {
+        display: block; 
+        gap: 1.5rem; 
+    }
+
+    #method-of-contact {
+        display: block; 
+        gap: 5%; 
+    }
+
+    #password {
+        display: block; 
+        gap: 0.3rem; 
+        padding: 1%; 
+    }
+
+    #buttons {
+        display: block; 
+        gap: 2.5rem; 
+    }
+
+    .awards-reviews {
+        display: block; 
+    }
+
+    .beyonce-box {
+        display: block; 
+        width: 100%; 
+    }
+
+    .tracks {
+        max-width: 100%; 
+    }
+
+    .gallery-grid {
+        display: block; 
+        padding: 1rem; 
+    }
+}
+

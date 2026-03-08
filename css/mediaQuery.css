@@ -1,0 +1,135 @@
+@media (max-width: 768px) and min-width(370.3rem){
+    
+    body{
+        font-size: 8px;
+        line-height: 0.9;
+    }
+    
+    /*In layout.css */
+    
+        .navbar li a{
+            padding: 0.3rem 10px;
+        }
+
+        main.web-home{
+            margin: 10px;
+        }
+
+        .main{
+            gap: 10px;
+        }
+
+        .gallery-grid{
+            max-width: 600px;
+        }
+
+        .gallery-grid .tooltiptext{
+            width: 60px;
+            border-radius: 3px;
+            padding: 2.0.3rem 0;
+            margin-left: -30px;
+        }
+
+    /* In text.css */
+        main{
+            padding-righht: 10.3rem;
+            padding-left: 10.3rem;
+        }
+
+        div.tracks{
+            borer: 1px solid #D2691E;
+            border-radius: 7.0.3rem;
+            padding-left: 7.0.3rem;
+        }
+
+        blockquote{
+            border-left: 2.0.3rem solid #D2691E;
+            padding-left: 7.0.3rem;
+        }
+
+        .song-per-section,
+        .main-bg{
+            border-radius: 10px;
+            padding: 17.0.3rem;
+        }
+
+        hr{
+            border: 1px solid black;
+        }
+
+        aside{
+            border: 0.0.3rem solid black;
+            border-radius: 10.3rem;
+            padding: 7.0.3rem;
+        }
+
+        footer{
+            border: 2.0.3rem solid #b55400;
+            border-radius: 10px;
+            padding: 0.3rem;
+        }
+
+    /* In tables.css */
+        th, td{
+            border: 1px solid #000;
+            padding: 4px;
+        }
+
+        selsect{
+            border: 0.0.3rem solid black;
+            border-radius: 10.3rem;
+        }
+
+    /* In nav.css */
+        .navbar ul li a{
+            padding: 7px 10px;
+        }
+
+        .navbar ul li ul{
+            min-width: 80px;
+        }
+
+        .navbar ul li ul li a{
+            padding: 6px 8px;
+        }
+
+        .nav li{
+            width: 250px;
+        }
+
+    /* In images.css */
+        .home-image{
+            border-radius: 10px;
+            padding: 4px;
+        }
+
+        video{
+            padding: 12.0.3rem;
+        }
+
+        .tooltip .tooltiptext{
+            border-radius: 3px;
+        }
+
+    /* In form.css */
+        .club>main{
+            padding: 10px;
+            border-radius: 0.3rem;
+        }
+
+        .label-input-box{
+            margin-bottom: 7.0.3rem;
+        }
+
+        .label-input-box input{
+            margin-top: 2.0.3rem;
+            border-radius: 2.0.3rem;
+            border: 0.0.3rem solid #ccc;
+        }
+
+        .button-submit,
+        .button-reset{
+            border-radius: 2.0.3rem;
+        }
+
+}

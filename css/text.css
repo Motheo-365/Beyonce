@@ -1,0 +1,111 @@
+/* Motheo Morena u24666981 */
+
+body{
+	font-size: 16px;
+	line-height: 1.8;
+}
+	
+nav{
+	font-size: 0.5rem;
+}
+
+main{
+	max-width: 60%;
+	margin: auto;
+	padding-right: 30px;
+	padding-left: 30px
+}
+
+span{
+	font-size: 1rem;
+	font-weight: bold;
+}
+	
+div.tracks{
+	border: 2px solid #D2691E;
+	border-radius: 15px;
+	padding: 15px;
+}	
+
+blockquote {
+	border-left: 5px solid #D2691E;
+	padding-left: 15px;
+	font-size: 140%;
+}
+
+.song-per-section,
+.main-bg{
+	border-radius: 20px;
+	padding : 35px;
+}
+
+.backToTop{
+	font-weight: bold;
+	padding: 1%;
+	max-width: 96%;
+}
+
+main.submitmessage{
+	max-width: 90%;
+	max-height: 80%;
+	border: 0.2rem solid #b55400;
+	text-align: center;
+	margin: auto;
+	padding: 15%;
+}
+
+hr{
+  border: 2px solid black;
+}
+
+aside{
+	border: 1px solid black;
+	border-radius: 30px;
+	padding: 15px;
+}
+
+
+footer{
+	text-align: center;
+	bottom: 0;
+	max-width: 98%;
+	border: 5px solid #b55400;
+	border-radius: 20px;
+	padding: 10px;
+}	
+
+/*Animations*/
+.home-image{
+	opacity: 0;
+	animation: fadeIn 2s forwards;
+}
+
+#quote{
+	display: inline-block;
+	animation: slideIn 5s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(0);
+    }
+	100%{
+		transform: translateX(300%);
+	}
+}
+
+	
+	
+	

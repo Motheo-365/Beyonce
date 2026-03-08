@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beyonce- Sign-Up</title>
+    <meta name="author" content="Motheo Morena">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" href="media/images/favicon.ico" type="image/x-icon">
+
+    <link href= "css/text.css" type= "text/css" rel= "stylesheet" >
+    <link href= "css/images.css" type= "text/css" rel= "stylesheet" >
+    <link href= "css/fonts.css" type= "text/css" rel= "stylesheet">
+    <link href= "css/form.css" type= "text/css" rel= "stylesheet">
+    <link href= "css/nav.css" type= "text/css" rel= "stylesheet">
+    <link href= "css/tables.css" type= "text/css" rel= "stylesheet">
+    <link href= "css/layout.css" type= "text/css" rel= "stylesheet">
+    <link href= "css/colors.css" type= "text/css" rel= "stylesheet">
+</head>
+<body class="club">
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="form.html" class="current">Sign-Up</a></li>
+            <li>
+                <a href="#">More...</a>
+                <!-- Drop-down List -->
+                <ul>
+                    <li><a href="lyrics.html">Lyrics</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="tours.html">Tour</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+<main>
+    <h1> Fan-Club Sign-Up!</h1>
+    <h3 >Complete this form to Receive Updates from us</h3>
+    <form action="formsucces.html" method="get" class="pure-form" >
+            <fieldset>
+                <legend>
+                    <h4>Personal Details:</h4>
+                </legend>
+                    <div class="label-input-box" id="personal-info">
+
+                        <span id= "nameMessage"></span>
+                            <input type="text" name="name" id= "name" maxlength="35" placeholder="Name:"><br><br>
+
+                            <input type="text" name="surname" id= "surname" maxlength="35" required placeholder="Surname:"><br>
+                                <span id= "surnameMessage"></span>
+
+                        <span id= "usernameMessage"></span>
+                            <input type="text" name="username" id= "username" maxlength="50" required placeholder="Username:"><br><br>
+
+                        <input type="date" name="dob" id="date" required><br><br>
+                            <span id= "yearMessage"></span>
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h4>Contact Details:</h4> <span id= "contactsMessage"></span>
+                </legend>
+                    <div class="label-input-box" id="contacts">
+                        <input type="email" name="email" id= "email" placeholder="Email@gmail.com" required><br>
+                        <input type="tel" name="cellno" id= "cellno" required placeholder="Phone Number:"><br>
+                                                        
+                        <label class="method-of-contact">Preffered Method of Contact:</label>
+                            <div id= "method-of-contact">
+
+                                <input type="checkbox" name="method" value="email"> Email
+                                <input type="checkbox" name="method" value="SMS"> SMS
+                        </div>
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h4>Password:</h4>
+                </legend>
+                    <div class="label-input-box" >
+                        <input type="password" name="password" id= "password" class="password" maxlength="15" required placeholder="Password">
+                        <input type="password" name="confirm-password" id= "c-password" class="confirm-password" required placeholder="Confirm Password"><br>
+                            <span id= "confirmPasswordMessage"></span>
+                    </div>
+                    <div class="label-input-box" id="buttons">
+                        <button type="submit" class="button-submit" id= "submit">Submit</button>
+                        <button type="reset" class="button-reset" id= "reset">Clear Form</button>
+                        <span id= "submitMessage"></span>
+                    </div>
+            </fieldset>
+    </form>
+</main>
+    <script src= "validate.js"></script>
+</body>
+</html>

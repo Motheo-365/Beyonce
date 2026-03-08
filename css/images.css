@@ -1,0 +1,55 @@
+/* Motheo Morena u2466981*/
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.align-aside>section{
+	max-width: 100%;
+}
+
+.home-image{
+	border-radius: 1.2rem;;
+	position: relative;
+	width: 35%;
+	height: 38%;
+	padding: 0.5rem;
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+video{
+	padding: 1.25rem;
+}
+
+/* Tooltip container */
+ .tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 8rem;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.3rem;
+	padding: 5%;
+
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -8rem;
+	transition: opacity 0.2s;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
